@@ -260,6 +260,7 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Note\Index.cshtml" />
     <Content Include="Views\Note\Create.cshtml" />
+    <Content Include="Views\Note\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -285,6 +286,10 @@
     <ProjectReference Include="..\elevenNote.Models\ElevenNote.Models.csproj">
       <Project>{88a878e4-521f-43ff-a173-dbff176f6078}</Project>
       <Name>ElevenNote.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ElevenNote.Services\ElevenNote.Services.csproj">
+      <Project>{53B9124D-631D-4522-BB62-702D21214E5B}</Project>
+      <Name>ElevenNote.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
