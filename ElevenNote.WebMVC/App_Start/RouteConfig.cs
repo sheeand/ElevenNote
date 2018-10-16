@@ -13,6 +13,7 @@ namespace ElevenNote.WebMVC
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            // Opens the application on the Home page
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
